@@ -1,0 +1,1091 @@
+/* sm 576px--->      */
+@media (min-width: 576px) {
+
+    .sm-50 {
+        width: 50%;
+    }
+
+    .sm-33 {
+        width: 33.33%;
+    }
+
+    .sm-25 {
+        width: 25%;
+    }
+
+    .sm-20 {
+        width: 20%;
+    }
+
+    .sm-16 {
+        width: 16%;
+    }
+
+}
+
+/* md 768px--->      */
+@media (min-width: 768px) {
+
+    .md-50 {
+        width: 50%;
+    }
+
+    .md-33 {
+        width: 33.33%;
+    }
+
+    .md-25 {
+        width: 25%;
+    }
+
+    .md-20 {
+        width: 20%;
+    }
+
+    .md-16 {
+        width: 16%;
+    }
+
+    /* ===============Start Nave Bar=============== */
+    #navbar .container {
+        padding: 16px;
+    }
+
+    #navbar .nav-log a {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #navbar .nav-box {
+        padding: 12px 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 20px;
+        right: 3%;
+        left: 3%;
+    }
+
+    #navbar .nav-links a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .star {
+        font-size: 12px;
+    }
+
+    #navbar .nav-links ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #navbar .nav-links ul li {
+        padding: 0px 3px;
+    }
+
+    #navbar .nav-subscribe {
+        padding: 6px 12px;
+        display: block;
+    }
+
+    #navbar .nav-subscribe a {
+        font-size: 11px;
+        line-height: 15px;
+        font-weight: 700;
+    }
+
+
+    /* ===============End Nave Bar=============== */
+
+
+
+    /* ===============Start Hero Section=============== */
+
+
+
+
+    /* ===============End Hero Section=============== */
+    #hero-section .box .box-one {
+        width: 128px;
+        height: 128px;
+        top: 40px;
+        left: 40px;
+    }
+
+    #hero-section .box .box-two {
+        width: 96px;
+        height: 96px;
+        top: 160px;
+        right: 80px;
+    }
+
+    #hero-section .cards .card-left .box-info {
+        margin: 0px 0px 24px;
+        padding: 8px 16px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #hero-section .cards .card-left h2 {
+        margin: 0px 0px 32px;
+        font-size: 72px;
+        line-height: 90px;
+    }
+
+    #hero-section .cards .card-left .box-content {
+        margin-bottom: 32px;
+        padding: 16px;
+    }
+
+    #hero-section .cards .card-left .box-content p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    #hero-section .cards .card-left .btn .btn-1 {
+        padding: 16px 32px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #hero-section .cards .card-right .image-card {
+        width: 724px;
+        height: 376px;
+    }
+
+    #hero-section .cards .card-right .content-image {
+        padding: 8px 16px;
+        top: -16px;
+        right: -16px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    /* ==========Start Latest Articles Section====== */
+
+    /* ====Style button ======= */
+    #latest-section .cards .card-btn {
+        margin-bottom: 20px;
+    }
+
+    #latest-section .container-latest .card-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        order: 1;
+    }
+
+    /* ==========End Latest Articles Section====== */
+
+
+
+    /* ==========Start Authors Section Section====== */
+
+    #authors-section {
+        padding-block: 60px;
+    }
+
+    #authors-section .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    /* === Style Boxes === */
+    #authors-section .boxes .box-1 {
+        background-color: #e6be2c70;
+    }
+
+    /* === Style Authors Header === */
+    #authors-section .authors-header h2 {
+        margin: 0px 0px 16px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    #authors-section .authors-header p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #authors-section .authors-header .box-3 {
+        margin: 16px auto 0px;
+        width: 128px;
+        height: 8px;
+    }
+
+    /* === Style Cards === */
+    #authors-section .cards .card {
+        padding: 32px;
+    }
+
+    #authors-section .cards .card .box-content {
+        padding: 4px 8px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    #authors-section .cards .card .card-image {
+        width: 19%;
+    }
+
+    #authors-section .cards .card h4 {
+        margin: 0px 0px 8px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #authors-section .cards .card p.one {
+        margin: 0px 0px 16px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #authors-section .cards .card p.two {
+        margin: 0px 0px 24px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #authors-section .cards .card .card-icon .box-icon {
+        width: 48px;
+        height: 48px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* ==========End Authors Section Section====== */
+
+    /* ==========Start Community Section====== */
+    #community-section .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    /* ===Style Community-header==== */
+    #community-section .community-header h3 {
+        margin: 0px 0px 16px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+
+    #community-section .community-header p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    /* ===Style Card Left=== */
+    #community-section .cards .card-left h4 {
+        margin: 0px 0px 32px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    #community-section .cards .card-left .title p {
+        font-size: 20px;
+        line-height: 32.5px;
+    }
+
+    /* ===Style Box Acsse -1 */
+    #community-section .cards .card-left .box-acsse .box-icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    #community-section .cards .card-left .box-acsse .box-icon i {
+        font-size: 16px;
+    }
+
+    #community-section .cards .card-left .box-acsse .acsse-title {
+        width: 90%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* ===Style Button Card Left====  */
+    #community-section .cards .card-left .btn-left {
+        width: 50%;
+        font-size: 24px;
+        line-height: 32px;
+        padding: 24px 48px;
+    }
+
+    /* ===Style Card Right=== */
+    #community-section .cards .card-right {
+        padding: 40px;
+    }
+
+
+    #community-section .cards .card-right h5 {
+        font-size: 30px;
+        line-height: 36px;
+        margin: 0px 0px 32px;
+    }
+
+    /* ===Style Card Inside-1 === */
+    #community-section .cards .card-right .box-card {
+        padding: 16px 16px 16px 24px;
+    }
+
+    #community-section .cards .card-right .box-card p {
+        font-size: 18px;
+        line-height: 29.25px;
+        margin: 0px 0px 16px;
+    }
+
+    #community-section .cards .card-right .box-card .card-image .image {
+        width: 8%;
+
+    }
+
+    #community-section .cards .card-right .box-card .card-image .name h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #community-section .cards .card-right .box-card .card-image .name span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* ==========End Community Section===== */
+
+
+    /* ==========Start Footer Section===== */
+
+    #footer .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    #footer .footer-cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 48px;
+    }
+
+    #footer .footer-cards .card-one .box .box-icon {
+        width: 64px;
+        height: 64px;
+    }
+
+    #footer .footer-cards .card-one .box .box-icon i {
+        font-size: 24px;
+    }
+
+    #footer .footer-cards .card-one .box .box-title h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #footer .footer-cards .card-one p {
+        font-size: 18px;
+        line-height: 29.25px;
+        margin: 0px 0px 32px;
+    }
+
+    /* ===Style Card-Two=== */
+    #footer .footer-cards .card-two {
+        width: 25%;
+    }
+
+    #footer .footer-cards .card-two h4 {
+        margin: 0px 0px 32px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #footer .footer-cards .card-two li {
+        padding-block: 10px;
+    }
+
+    #footer .footer-cards .card-two li a {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+    /* ===Style Card-Three=== */
+    #footer .footer-cards .card-three {
+        width: 75%;
+    }
+
+    #footer .footer-cards .card-three h4 {
+        margin: 0px 0px 32px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #footer .footer-cards .card-three p {
+        margin: 0px 0px 24px;
+        font-size: 18px;
+        line-height: 29.25px;
+    }
+
+    /* ====Style Input==== */
+    #footer .footer-cards .card-three input {
+        margin: 0px 0px 16px;
+        padding: 16px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* ====Style Button==== */
+    #footer .footer-cards .card-three button {
+        padding: 16px 0px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* ===Style foot=== */
+    #footer .fot {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer .fot p {
+        margin: 0px 0px 12px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #footer .fot ul li a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* ==========End Footer Section===== */
+
+}
+
+/* lg 992px--->      */
+@media (min-width: 992px) {
+
+    .lg-50 {
+        width: 50%;
+    }
+
+    .lg-33 {
+        width: 33.33%;
+    }
+
+    .lg-25 {
+        width: 25%;
+    }
+
+    .lg-20 {
+        width: 20%;
+    }
+
+    .lg-16 {
+        width: 16%;
+    }
+
+    /* ===============Start Nave Bar=============== */
+
+    #navbar .container {
+        padding: 16px;
+    }
+
+    #navbar .nav-box {
+        padding: 12px 24px;
+        top: 15px;
+        left: 10%;
+        right: 10%;
+    }
+
+    #navbar .nav-log a {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #navbar .nav-links a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .star {
+        font-size: 12px;
+    }
+
+    #navbar .nav-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar .nav-links ul li {
+        padding: 0px 10px;
+    }
+
+    #navbar .nav-subscribe {
+        background-color: #FFD15B;
+        padding: 8px 16px;
+        border: 2px solid #000;
+        border-radius: 20px;
+        transition: transform 0.2s;
+        display: block;
+    }
+
+    #navbar .nav-subscribe a {
+        color: #000;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 700;
+    }
+
+
+    /* ===============Start Hero Section=============== */
+
+
+    #hero-section .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    #hero-section .box .box-one {
+        width: 128px;
+        height: 128px;
+        top: 40px;
+        left: 40px;
+    }
+
+    #hero-section .box .box-two {
+        width: 96px;
+        height: 96px;
+        top: 160px;
+        right: 80px;
+    }
+
+    #hero-section .box .box-three {
+        width: 112px;
+        height: 112px;
+        background-color: rgba(43, 128, 255, 0.058);
+        transform: rotate(45deg);
+        position: absolute;
+        bottom: 80px;
+        left: 553px;
+    }
+
+    #hero-section .cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 60px;
+        gap: 60px;
+    }
+
+    #hero-section .cards .card-left .box-info {
+        margin-bottom: 24px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #hero-section .cards .card-left h2 {
+        margin: 0px 0px 32px;
+        font-size: 72px;
+        line-height: 90px;
+        font-weight: 900;
+    }
+
+    #hero-section .cards .card-left {
+        width: 50%;
+    }
+
+
+    #hero-section .cards .card-right {
+        width: 50%;
+    }
+
+    #hero-section .cards .card-left .box-content p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #hero-section .cards .card-left .btn .btn-1 {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 16px 32px;
+    }
+
+    #hero-section .cards .card-right .image-card {
+        width: 568px;
+        height: 367px;
+        rotate: 2deg;
+    }
+
+    #hero-section .cards .card-right .content-image {
+        padding: 8px 16px;
+        top: -16px;
+        right: -16px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /* ===============End Hero Section=============== */
+
+
+    /* ==========Start Latest Articles Section====== */
+
+    #latest-section .container-latest {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* ===== Style Card-Right ===== */
+    #latest-section .container-latest .card-right {
+        width: 60%;
+    }
+
+    #latest-section .container-latest .card-info h3 {
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #000;
+    }
+
+    #latest-section .container-latest .card-info .card-box {
+        display: block;
+        background-color: #000;
+        padding: 8px 12px;
+        border: 2px solid #000;
+        box-shadow: 3px 3px #000;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        rotate: 2deg;
+    }
+
+    /* ======= Style Cards ====== */
+
+    #latest-section .cards .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    #latest-section .cards .card .card-image {
+        width: 25%;
+    }
+
+    /* ====Style button ======= */
+
+    #latest-section .cards .card-btn {
+        width: 65%;
+        margin: auto;
+    }
+
+    #latest-section .container-latest {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-start;
+        position: relative;
+    }
+
+
+
+    /* ===== Style Card-Left-1 ===== */
+    #latest-section .container-latest .card-left {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 40px;
+        right: 20px;
+        order: 0;
+    }
+
+
+    /* ==========End Latest Articles Section====== */
+
+
+
+    /* ==========Start Authors Section ====== */
+
+    #authors-section {
+        padding: 60px;
+    }
+
+    #authors-section .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    #authors-section .boxes .box-1 {
+        background-color: #E6BD2C;
+    }
+
+    /* === Style Authors Header === */
+    #authors-section .authors-header h2 {
+        margin: 60px 0px 12px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    #authors-section .authors-header p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #authors-section .authors-header .box-3 {
+        margin: 16px auto 0px;
+        width: 128px;
+        height: 8px;
+    }
+
+    /* === Style Cards === */
+    #authors-section .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #authors-section .cards .card {
+        width: 30%;
+        padding: 32px;
+    }
+
+    #authors-section .cards .card .box-content {
+        padding: 4px 8px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    #authors-section .cards .card .card-image {
+        width: 45%;
+    }
+
+    #authors-section .cards .card h4 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #authors-section .cards .card p.one {
+        margin: 0px 0px 16px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #authors-section .cards .card p.two {
+        margin: 0px 0px 24px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #authors-section .cards .card .card-icon .box-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    /* ==========End Authors Section ====== */
+
+
+    /* ==========Start Community Section====== */
+
+    #community-section .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* ===Style Community-header==== */
+    #community-section .community-header h3 {
+        margin: 0px 0px 16px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    #community-section .community-header p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    /* =====Style Community Cards====== */
+    #community-section .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+        margin-top: 60px;
+    }
+
+
+    /* ===Style Card Left=== */
+    #community-section .cards .card-left {
+        width: 47%;
+    }
+
+    #community-section .cards .card-left h4 {
+        margin: 0px 0px 32px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    #community-section .cards .card-left .title p {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    /* ===Style Box Acsse -1 */
+    #community-section .cards .card-left .box-acsse .box-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    #community-section .cards .card-left .box-acsse .box-icon i {
+        font-size: 18px;
+    }
+
+    #community-section .cards .card-left .box-acsse .acsse-title {
+        width: 80%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* ===Style Button Card Left====  */
+    #community-section .cards .card-left .btn-left {
+        width: fit-content;
+        padding: 24px 48px;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 0px;
+    }
+
+    /* ===Style Card Right=== */
+    #community-section .cards .card-right {
+        width: 47%;
+        padding: 40px;
+    }
+
+    #community-section .cards .card-right h5 {
+        font-size: 30px;
+        line-height: 36px;
+        margin: 0px 0px 36px;
+    }
+
+    /* ===Style Card Inside-1 === */
+    #community-section .cards .card-right .box-card {
+        width: 92%;
+        padding: 16px 24px;
+    }
+
+    #community-section .cards .card-right .box-card p {
+        margin: 0px 0px 16px;
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+
+    #community-section .cards .card-right .box-card .card-image .name h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #community-section .cards .card-right .box-card .card-image .name span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* ==========End Community Section===== */
+
+
+    /* ==========Start Footer Section===== */
+
+    #footer .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    #footer .footer-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 48px;
+    }
+
+    /* ===Style Card-one=== */
+    #footer .footer-cards .card-one {
+        width: 35%;
+        margin-right: 30px;
+    }
+
+    /* ===Style Box=== */
+    #footer .footer-cards .card-one .box .box-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    #footer .footer-cards .card-one .box .box-icon i {
+        font-size: 32px;
+    }
+
+
+    #footer .footer-cards .card-one .box .box-title h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #footer .footer-cards .card-one p {
+        font-size: 18px;
+        line-height: 29px;
+        margin: 0px 0px 32px;
+    }
+
+    /* ===Style Card-Two=== */
+    #footer .footer-cards .card-two {
+        width: 20%;
+    }
+
+
+    #footer .footer-cards .card-two h4 {
+        margin: 0px 0px 32px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #footer .footer-cards .card-two li {
+        padding-block: 10px;
+    }
+
+    #footer .footer-cards .card-two li a {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* ===Style Card-Three=== */
+    #footer .footer-cards .card-three {
+        width: 40%;
+    }
+
+    #footer .footer-cards .card-three h4 {
+        margin: 0px 0px 32px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #footer .footer-cards .card-three p {
+        margin: 0px 0px 24px;
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    /* ====Style Input==== */
+    #footer .footer-cards .card-three input {
+        width: 95%;
+        margin: 0px 0px 16px;
+        padding: 16px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* ====Style Button==== */
+    #footer .footer-cards .card-three button {
+        width: 95%;
+        padding: 16px 0px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* ===Style foot=== */
+    #footer .fot {
+        padding: 32px 0px 0px;
+    }
+
+    #footer .fot p {
+        margin: 0px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #footer .fot ul li {
+        padding: 0px 15px;
+    }
+
+    #footer .fot ul li a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* ==========End Footer Section===== */
+
+}
+
+/* xl 1200px--->      */
+@media (min-width: 1200px) {
+
+    .xl-50 {
+        width: 50%;
+    }
+
+    .xl-33 {
+        width: 33.33%;
+    }
+
+    .xl-25 {
+        width: 25%;
+    }
+
+    .xl-20 {
+        width: 20%;
+    }
+
+    .xl-16 {
+        width: 16%;
+    }
+
+}
+
+/* xxl 1400px--->      */
+@media (min-width: 1400px) {
+
+    .xxl-50 {
+        width: 50%;
+    }
+
+    .xxl-33 {
+        width: 33.33%;
+    }
+
+    .xxl-25 {
+        width: 25%;
+    }
+
+    .xxl-20 {
+        width: 20%;
+    }
+
+    .xxl-16 {
+        width: 16%;
+    }
+
+}

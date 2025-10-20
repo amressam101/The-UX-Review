@@ -1,0 +1,1355 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Exo", sans-serif;
+    margin: 0;
+}
+
+body::selection {
+    background-color: #FFD15B;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ===================== Global Style ====================== */
+
+/* ===============Start Nave Bar=============== */
+
+#navbar {
+    background-color: #FEF085;
+    border: 2px solid #000;
+    border-bottom: none;
+}
+
+#navbar .container {
+    padding: 12px;
+}
+
+#navbar .nav-box {
+    padding: 9px 18px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
+#navbar .nav-log a {
+    font-size: 22.5px;
+    line-height: 27px;
+    font-weight: 800;
+    color: #000;
+}
+
+#navbar .nav-log a span {
+    color: #FF6900;
+}
+
+#navbar .nav-links a {
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 600;
+    color: #000;
+    transition: color 0.2s;
+}
+
+/* ===First Effect=== */
+#navbar .nav-links a:hover {
+    color: #ff7a50;
+}
+
+.star {
+    font-size: 9px;
+    color: #D1D5DB;
+}
+
+#navbar .nav-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar .nav-links ul li {
+    padding: 0px 5px;
+}
+
+
+#navbar .nav-subscribe {
+    background-color: #FFD15B;
+    padding: 8px 16px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    transition: transform 0.2s;
+    display: none;
+}
+
+/* ===Second Effect=== */
+#navbar .nav-subscribe:hover {
+    transform: translate(3px, 3px);
+}
+
+
+/* ===============End Nave Bar=============== */
+
+
+/* ===============Start Hero Section=============== */
+
+#hero-section {
+    background-color: #FEF085;
+    border: 2px solid black;
+    border-top: none;
+    position: relative;
+    padding: 60px 0px 30px 0px;
+
+}
+
+#hero-section .container {
+    width: 95%;
+    margin: auto;
+}
+
+#hero-section .box .box-one {
+    width: 96px;
+    height: 96px;
+    background-color: rgba(0, 0, 0, 0.14);
+    transform: rotate(12deg);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#hero-section .box .box-two {
+    width: 72px;
+    height: 72px;
+    background-color: rgba(249, 42, 52, 0.075);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 120px;
+    right: 60px;
+}
+
+#hero-section .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+    gap: 60px;
+}
+
+#hero-section .cards .card-left {
+    position: relative;
+}
+
+#hero-section .cards .card-left .box-info {
+    background-color: black;
+    color: #fff;
+    width: fit-content;
+    rotate: -2deg;
+    border: 2px solid #000;
+    box-shadow: 3px 3px #000;
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    margin: 0px 0px 18px;
+    padding: 6px 12px;
+    font-size: 10.5px;
+    line-height: 15px;
+}
+
+#hero-section .cards .card-left h2 {
+    margin: 0px 0px 24px;
+    font-size: 54px;
+    line-height: 67.5px;
+    font-weight: 900;
+    color: #000;
+    text-shadow: 3px 3px #000;
+}
+
+.red {
+    color: #e7000b;
+}
+
+.blue {
+    color: #155dfc;
+}
+
+#hero-section .cards .card-left .box-content {
+    margin-bottom: 24px;
+    padding: 12px;
+    background-color: #fff;
+    width: fit-content;
+    border: 2px solid #000;
+    box-shadow: 3px 3px #000;
+
+}
+
+#hero-section .cards .card-left .box-content p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 0;
+    color: #000;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+
+#hero-section .cards .card-left .btn {
+    display: flex;
+    gap: 15px;
+}
+
+#hero-section .cards .card-left .btn .btn-1 {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    border: 4px solid #000;
+    box-shadow: 6px 6px #000;
+    padding: 12px 24px;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+/* ===First Effect=== */
+#hero-section .cards .card-left .btn .btn-1:hover {
+    box-shadow: none;
+    transform: translate(6px, 6px);
+}
+
+#hero-section .cards .card-left .btn .btn-1.white {
+    background-color: #fff;
+    color: #000;
+}
+
+#hero-section .cards .card-right {
+    position: relative;
+}
+
+#hero-section .cards .card-right .image-card {
+    width: 330px;
+    height: 280px;
+    background-image: url(../images/hero-img.png);
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #000;
+    border: 4px solid #000;
+    box-shadow: 6px 6px #000;
+    transition: all 0.3s;
+}
+
+
+/* ===Second Effect=== */
+#hero-section .cards .card-right .image-card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px #000;
+}
+
+#hero-section .cards .card-right .content-image {
+    background-color: #F92A36;
+    position: absolute;
+    padding: 6px 12px;
+    top: -12px;
+    right: -12px;
+    border: 2px solid #000;
+    box-shadow: 3px 3px #000;
+    rotate: 12deg;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+
+}
+
+/* ===============End Hero Section=============== */
+
+
+/* ==========Start Latest Articles Section====== */
+
+#latest-section {
+    padding: 60px 0px;
+    border: 2px solid #000;
+}
+
+#latest-section .container-latest {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+/* ===== Style Card-Right ===== */
+
+#latest-section .container-latest .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#latest-section .container-latest .card-info h3 {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #000;
+    margin: 0px 0px 20px;
+}
+
+#latest-section .container-latest .card-info .card-box {
+    display: none;
+}
+
+
+/* ======= Style Cards ====== */
+#latest-section .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 32px;
+    background-color: #fff;
+    border: 4px solid #000;
+    box-shadow: 4px 4px #000;
+    margin-bottom: 32px;
+    transition: all 0.3s;
+}
+
+/* =====First Effect==== */
+
+#latest-section .cards .card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px #000;
+}
+
+
+#latest-section .cards .card .card-image {
+    position: relative;
+}
+
+#latest-section .cards .card .card-box {
+    position: absolute;
+    border: 2px solid #000;
+    color: #fff;
+    top: -8px;
+    right: -8px;
+    background-color: #FB2B37;
+    padding: 4px 8px;
+    rotate: 12deg;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+#latest-section .cards .card .card-image img {
+    width: 100%;
+    border: 2px solid #000;
+
+}
+
+#latest-section .cards .card .card-title {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#latest-section .cards .card .card-title .box {
+    width: fit-content;
+    padding: 4px 12px;
+    border: 2px solid #000;
+    box-shadow: 3px 3px #000;
+    background-color: #FFE020;
+    rotate: -1deg;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 12px;
+}
+
+#latest-section .cards .card .card-title h4 {
+    margin: 0px 0px 12px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #000;
+    transition: color 0.3s;
+}
+
+/* ===Second Effect=== */
+#latest-section .cards .card:hover .card-title h4 {
+    color: red;
+}
+
+#latest-section .cards .card .card-title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #000;
+    margin: 0px 0px 16px;
+}
+
+#latest-section .cards .card .card-title ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#latest-section .cards .card .card-title ul li {
+    padding: 0px 10px;
+}
+
+
+/* =======Style card-2 ======== */
+#latest-section .cards .card .card-box.bc-blue {
+    background-color: #2B7FFF;
+    rotate: -12deg;
+}
+
+#latest-section .cards .card .card-title .box.bc-green {
+    background-color: #7AF2A8;
+    rotate: 1deg;
+}
+
+#latest-section .cards .card.cl-blue:hover .card-title h4 {
+    color: #155dfc;
+}
+
+
+/* =======Style card-3 ======== */
+
+#latest-section .cards .card .card-box.bc-par {
+    background-color: #AD46FF;
+    rotate: 45deg;
+}
+
+#latest-section .cards .card .card-title .box.bc-pin {
+    background-color: #FDA5D5;
+    rotate: -2deg;
+}
+
+#latest-section .cards .card.cl-pin:hover .card-title h4 {
+    color: #9810fa;
+}
+
+
+/* ====Style button ======= */
+
+#latest-section .cards .card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#latest-section .cards .card-btn button {
+    background-color: #000;
+    padding: 16px 48px;
+    box-shadow: 6px 6px #000;
+    transition: all 0.2s;
+}
+
+#latest-section .cards .card-btn button a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+
+#latest-section .cards .card-btn button:hover {
+    transform: translate(6px, 6px);
+    box-shadow: none;
+}
+
+/* ===== Style Card-Left-1 ===== */
+
+#latest-section .container-latest .card-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+}
+
+#latest-section .card-left .card-one {
+    width: 100%;
+    border: 4px solid #000;
+    box-shadow: 6px 6px #000;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+
+#latest-section .card-left .card-one h4 {
+    margin: 0px 0px 24px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+#latest-section .card-left .card-one .num {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 24px;
+}
+
+#latest-section .card-left .card-one .num span {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #fb2c36;
+    margin-right: 16px;
+}
+
+#latest-section .card-left .card-one .num span.blue {
+    color: #155dfc;
+}
+
+#latest-section .card-left .card-one .num span.pink {
+    color: #9810fa;
+}
+
+#latest-section .card-left .card-one .num .num-title h5 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: color 0.2s;
+}
+
+
+
+/* =====First Effect==== */
+#latest-section .card-left .card-one .num:hover .num-title h5 {
+    color: #e7000b;
+}
+
+
+/* =====Second Effect==== */
+#latest-section .card-left .card-one .num:hover .num-title.nu-blue h5 {
+    color: #155dfc;
+}
+
+/* =====Three Effect==== */
+#latest-section .card-left .card-one .num:hover .num-title.nu-pink h5 {
+    color: #9810fa;
+}
+
+#latest-section .card-left .card-one .num .num-title p {
+    margin: 4px 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #525252;
+}
+
+
+/* ===== Style Card-Left-2 ===== */
+
+
+#latest-section .card-left .card-two {
+    width: 100%;
+    border: 4px solid #000;
+    box-shadow: 6px 6px #000;
+    padding: 32px;
+}
+
+#latest-section .card-left .card-two h4 {
+    margin: 0px 0px 24px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+#latest-section .card-left .card-two .box-2 {
+    background-color: #FFF9C2;
+    padding: 12px 16px;
+    border: 2px solid #000;
+    margin-bottom: 12px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: all 0.2s;
+}
+
+/* =====First Effect==== */
+
+#latest-section .card-left .card-two .box-2:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px #000;
+    background-color: #FFE020;
+}
+
+
+/* =====Second Effect==== */
+
+#latest-section .card-left .card-two .box-2.green {
+    background-color: #DCFCE6;
+}
+
+#latest-section .card-left .card-two .box-2.green:hover {
+    background-color: #7AF2A8;
+}
+
+/* =====Three Effect==== */
+
+#latest-section .card-left .card-two .box-2.pink {
+    background-color: #FCE7F4;
+}
+
+#latest-section .card-left .card-two .box-2.pink:hover {
+    background-color: #FDA5D5;
+}
+
+
+/* =====Four Effect==== */
+
+#latest-section .card-left .card-two .box-2.blue {
+    background-color: #DBEAFF;
+}
+
+#latest-section .card-left .card-two .box-2.blue:hover {
+    background-color: #8EC5FF;
+}
+
+
+/* =====Five Effect==== */
+
+#latest-section .card-left .card-two .box-2.move {
+    background-color: #F3E7FF;
+}
+
+#latest-section .card-left .card-two .box-2.move:hover {
+    background-color: #DAB2FF;
+}
+
+/* ==========End Latest Articles Section====== */
+
+
+
+/* ==========Start Authors Section Section====== */
+
+#authors-section {
+    background-color: #FFD230;
+    border: 2px solid #000;
+    position: relative;
+    padding-block: 60px;
+}
+
+#authors-section .container {
+    width: 90%;
+    margin: auto;
+}
+
+/* === Style Boxes === */
+#authors-section .boxes .box-1 {
+    width: 160px;
+    height: 160px;
+    rotate: 45deg;
+    background-color: #e6be2c2b;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+}
+
+#authors-section .boxes .box-2 {
+    width: 128px;
+    height: 128px;
+    rotate: -12deg;
+    background-color: #FFC232;
+    position: absolute;
+    bottom: 38px;
+    left: 40px;
+}
+
+/* === Style Authors Header === */
+#authors-section .authors-header {
+    text-align: center;
+}
+
+#authors-section .authors-header h2 {
+    margin: 0px 0px 12px;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 900;
+    color: #000;
+
+}
+
+#authors-section .authors-header p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #525252;
+    margin: 0px;
+}
+
+#authors-section .authors-header .box-3 {
+    margin: 12px auto 0px;
+    width: 96px;
+    height: 6px;
+    background-color: #000;
+    rotate: 1deg;
+}
+
+/* === Style Cards === */
+#authors-section .cards {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#authors-section .cards .card {
+    padding: 24px;
+    background-color: #FFF9C2;
+    border: 4px solid #000;
+    box-shadow: 6px 6px #000;
+    text-align: center;
+    position: relative;
+    transition: all 0.2s;
+}
+
+#authors-section .cards .card .box-content {
+    background-color: red;
+    border: 2px solid #000;
+    width: fit-content;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    rotate: 12deg;
+    color: #fff;
+    padding: 3px 6px;
+    font-size: 9px;
+    line-height: 12px;
+    font-weight: 700;
+}
+
+
+#authors-section .cards .card .card-image {
+    width: 33%;
+    margin: 0px auto 24px;
+    border: 4px solid #000;
+}
+
+
+#authors-section .cards .card h4 {
+    margin: 0px 0px 6px;
+    font-size: 22.5px;
+    line-height: 29px;
+    font-weight: 900;
+}
+
+/* =====Five Effect==== */
+#authors-section .cards .card:hover h4 {
+    color: #e7000b;
+
+}
+
+#authors-section .cards .card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px #000;
+}
+
+/* ===Style card-2 ==== */
+/* =====Second Effect==== */
+#authors-section .cards .card.color-2 {
+    background-color: #DCFCE6;
+}
+
+#authors-section .cards .card.color-2:hover h4 {
+    color: #165DFC;
+}
+
+#authors-section .cards .card.color-2 .box-content {
+    rotate: -12deg;
+    background-color: #2B7FFF;
+}
+
+
+/* ===Style card-3 ==== */
+/* =====Three Effect==== */
+#authors-section .cards .card.color-3 {
+    background-color: #FCE7F4;
+}
+
+#authors-section .cards .card.color-3:hover h4 {
+    color: #9810fa;
+}
+
+#authors-section .cards .card.color-3 .box-content {
+    rotate: 45deg;
+    background-color: #AD46FF;
+}
+
+#authors-section .cards .card p.one {
+    margin: 0px 0px 12px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #525252;
+}
+
+#authors-section .cards .card p.two {
+    margin: 0px 0px 18px;
+    font-size: 12px;
+    line-height: 19.5px;
+    font-weight: 400;
+    color: #000;
+}
+
+#authors-section .cards .card .card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#authors-section .cards .card .card-icon .box-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: #000;
+    border: 2px solid #000;
+    color: #fff;
+    position: relative;
+    transition: all 0.2s;
+}
+
+/* =====Second Effect==== */
+#authors-section .cards .card .card-icon .box-icon:hover {
+    box-shadow: 6px 6px #000;
+    transform: translate(-2px, -2px);
+}
+
+/* === Style hover b1 */
+#authors-section .cards .card .card-icon .box-icon.b1:hover {
+    background-color: #1DA1F2;
+}
+
+/* === Style hover b2 */
+#authors-section .cards .card .card-icon .box-icon.b2:hover {
+    background-color: #165DFC;
+}
+
+/* === Style hover b3 */
+#authors-section .cards .card .card-icon .box-icon.b3:hover {
+    background-color: #E60076;
+}
+
+#authors-section .cards .card .card-icon .box-icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* ==========End Authors Section Section====== */
+
+
+/* ==========Start Community Section====== */
+
+#community-section {
+    padding-block: 60px;
+    border: 2px solid #000;
+}
+
+#community-section .container {
+    width: 90%;
+    margin: auto;
+}
+
+/* ===Style Community-header==== */
+
+#community-section .community-header {
+    text-align: center;
+}
+
+#community-section .community-header h3 {
+    margin: 0px 0px 12px;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 900;
+    color: #000;
+}
+
+#community-section .community-header p {
+    margin: 0px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    color: #525252;
+}
+
+#community-section .community-header .header-box {
+    width: 128px;
+    height: 8px;
+    margin: 16px auto 0px;
+    background-color: #000;
+    rotate: -1deg;
+}
+
+/* =====Style Community Cards====== */
+
+#community-section .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 60px;
+    flex-direction: column;
+}
+
+
+
+/* ===Style Card Left=== */
+
+#community-section .cards .card-left {
+    width: 100%;
+}
+
+
+#community-section .cards .card-left h4 {
+    margin: 0px 0px 24px;
+    font-size: 27px;
+    line-height: 30px;
+    font-weight: 900;
+    color: #000;
+}
+
+#community-section .cards .card-left .title {
+    padding: 16px;
+    border: 2px solid #000;
+    box-shadow: 3px 3px #000;
+    margin: 0px 0px 32px;
+}
+
+#community-section .cards .card-left .title p {
+    margin: 0px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+
+/* ===Style Box Acsse -1 */
+
+#community-section .cards .card-left .box-acsse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 0px 24px;
+}
+
+#community-section .cards .card-left .box-acsse .box-icon {
+    width: 36px;
+    height: 36px;
+    background-color: #FB2B37;
+    border: 2px solid #000;
+    position: relative;
+    margin: 0px 16px 0px 0px;
+}
+
+#community-section .cards .card-left .box-acsse .box-icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 15px;
+}
+
+#community-section .cards .card-left .box-acsse .acsse-title {
+    width: 80%;
+    font-size: 13.5px;
+    line-height: 21px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}
+
+#community-section .cards .card-left .box-acsse .acsse-title p {
+    margin: 0px;
+}
+
+
+/* ===Style Box Acsse -2 */
+
+#community-section .cards .card-left .box-acsse .box-icon.blue {
+    background-color: #2B7FFF;
+}
+
+/* ===Style Box Acsse -3 */
+
+#community-section .cards .card-left .box-acsse .box-icon.pink {
+    background-color: #AD46FF;
+}
+
+/* ===Style Box Acsse -4 */
+
+#community-section .cards .card-left .box-acsse.margin {
+    margin: 0px;
+}
+
+#community-section .cards .card-left .box-acsse .box-icon.green {
+    background-color: #00C951;
+}
+
+
+/* ===Style Button Card Left====  */
+
+#community-section .cards .card-left .btn-left {
+    margin-top: 40px;
+    width: fit-content;
+    background-color: #000;
+    border: 4px solid #000;
+    box-shadow: 6px 6px #000;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 18px 36px;
+    font-weight: 700;
+    margin-bottom: 45px;
+    transition: all 0.2s;
+}
+
+#community-section .cards .card-left .btn-left:hover {
+    box-shadow: none;
+    transform: translate(6px, 6px);
+}
+
+
+/* ===Style Card Right=== */
+
+#community-section .cards .card-right {
+    padding: 30px;
+    border: 4px solid #000;
+    box-shadow: 6px 6px #000;
+}
+
+#community-section .cards .card-right h5 {
+    font-size: 22.5px;
+    line-height: 27px;
+    margin: 0px 0px 24px;
+    font-weight: 900;
+    color: #000;
+}
+
+/* ===Style Card Inside-1 === */
+
+#community-section .cards .card-right .box-card {
+    padding: 12px 12px 12px 18px;
+    background-color: #FEF2F3;
+    border: 2px solid #000;
+    margin-bottom: 32px;
+}
+
+#community-section .cards .card-right .box-card p {
+    font-size: 13.5px;
+    line-height: 21px;
+    margin: 0px 0px 12px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+#community-section .cards .card-right .box-card .card-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+#community-section .cards .card-right .box-card .card-image .image {
+    width: 11%;
+    margin-right: 16px;
+    border: 2px solid #000;
+}
+
+#community-section .cards .card-right .box-card .card-image .name h5 {
+    margin: 0;
+    font-size: 13.5px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #000;
+}
+
+#community-section .cards .card-right .box-card .card-image .name span {
+    font-size: 10.5px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #525252;
+}
+
+/* ===Style Card Inside-2 === */
+
+#community-section .cards .card-right .box-card.blue {
+    background-color: #EEF6FF;
+}
+
+
+/* ===Style Card Inside-3 === */
+
+#community-section .cards .card-right .box-card.pink {
+    background-color: #FAF5FF;
+    margin: 0px;
+}
+
+/* ==========End Community Section===== */
+
+
+
+/* ==========Start Footer Section===== */
+#footer {
+    padding-block: 60px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+#footer .container {
+    width: 90%;
+    margin: auto;
+}
+
+#footer .footer-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 48px;
+}
+
+/* ===Style Card-one=== */
+#footer .footer-cards .card-one {
+    width: 100%;
+}
+
+/* ===Style Box=== */
+#footer .footer-cards .card-one .box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px 0px 32px;
+}
+
+#footer .footer-cards .card-one .box .box-icon {
+    width: 44px;
+    height: 44px;
+    border: 2px solid #000;
+    position: relative;
+    background-color: #fff;
+    margin-right: 16px;
+
+}
+
+#footer .footer-cards .card-one .box .box-icon i {
+    font-size: 18px;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#footer .footer-cards .card-one .box .box-title h2 {
+    margin: 0px;
+    font-size: 22.5px;
+    line-height: 27px;
+    font-weight: 900;
+}
+
+#footer .footer-cards .card-one p {
+    font-size: 13.5px;
+    line-height: 22px;
+    margin: 0px 0px 24px;
+    font-weight: 400;
+}
+
+
+
+/* ===Style Card-Two=== */
+#footer .footer-cards .card-two {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#footer .footer-cards .card-two h4 {
+    margin: 0px 0px 24px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+}
+
+#footer .footer-cards .card-two li {
+    padding-block: 5px;
+
+}
+
+#footer .footer-cards .card-two li a {
+    color: #fff;
+    font-size: 13.5px;
+    line-height: 18px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+/* =====Five Effect==== */
+#footer .footer-cards .card-two li:hover a {
+    color: #ffdf20;
+}
+
+
+/* ===Style Card-Three=== */
+#footer .footer-cards .card-three {
+    width: 100%;
+}
+
+#footer .footer-cards .card-three h4 {
+    margin: 0px 0px 24px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+}
+
+#footer .footer-cards .card-three p {
+    margin: 0px 0px 18px;
+    font-size: 13.5px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+/* ====Style Input==== */
+#footer .footer-cards .card-three input {
+    width: 100%;
+    margin: 0px 0px 12px;
+    padding: 12px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    font-family: "Exo", sans-serif;
+}
+
+
+/* ====Style Button==== */
+#footer .footer-cards .card-three button {
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 13.5px;
+    line-height: 20px;
+    color: #000;
+    background-color: #FFE020;
+    border: 4px solid #000;
+    box-shadow: -4px -4px 0 0 rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+/* =====Five Effect==== */
+#footer .footer-cards .card-three button:hover {
+    transform: translate(4px, 4px);
+    background-color: #FDC800;
+}
+
+
+
+/* ===Style foot=== */
+
+#footer .fot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid #fff;
+    padding: 24px 0px 0px;
+}
+
+#footer .fot p {
+    margin: 0px 0px 9px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+
+#footer .fot ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#footer .fot ul li {
+    padding: 0px 13px;
+
+}
+
+#footer .fot ul li a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+#footer .fot ul li:hover a {
+    color: #ffdf20;
+}
+
+/* ==========End Footer Section===== */
